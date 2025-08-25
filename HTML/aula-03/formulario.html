@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <fieldset>
+                <legend>Sexo:</legend>
+                <label for="masculino">Masculino:</label>
+                <input type="radio" name="sex" id="masculino">
+                <label for="feminino">Feminino:</label>
+                <input type="radio" name="sex" id="feminino">
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>De onde nos conhece:</legend>
+                <label for="conhecimento">Jornal:</label>
+                <input type="checkbox" name="conhecimento" id="conhecimento">
+                <label for="conhecimento">Internet:</label>
+                <input type="checkbox" name="conhecimento" id="conhecimento">
+                <label for="conhecimento">Whatsapp:</label>
+                <input type="checkbox" name="conhecimento" id="conhecimento">
+                <label for="conhecimento">Instagram:</label>
+                <input type="checkbox" name="conhecimento" id="conhecimento">
+            </fieldset>
+        </div>
+        <div>
+            <label for="pais">País:</label>
+            <select name="pais" id="pais">
+                <option value="-1">Selecione...</option>
+                <option value="0">Brasil</option>
+                <option value="1">Portugal</option>
+                <option value="2">Espanha</option>
+            </select>
+        </div>
+        <div>
+            <label for="observacao">Observação:</label>
+            <textarea name="observacao" id="observacao"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>
