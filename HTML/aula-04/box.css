@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div {
+    margin: 10px;/*Espaço entre os elementos externos*/
+    padding: 10px;/*Espaço entre os elementos internos*/
+    border: 10px solid;
+    width: 100px;/*Largura*/
+    height: 100px;/*Altura*/
+}
