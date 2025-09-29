@@ -106,6 +106,24 @@ ul {
 }
 
 .imgSkills {
-
     height: 100px;
+}
+
+.projects {
+    background-color: var(--backgroudSec);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    min-width: 300px;
+    border-radius: 20px;
+}
+
+.fomumlario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    min-width: 300px;
+    border-radius: 20px;
 }
