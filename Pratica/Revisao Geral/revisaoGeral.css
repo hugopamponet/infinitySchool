@@ -39,7 +39,6 @@ ul {
     gap: 30px;
     font-size: 20px;
     font-family: "Inter", sans-serif;
-    
 }
 
 .title {
@@ -74,7 +73,12 @@ ul {
 }
 
 .profilePhoto {
-    margin: 10px 10px 0 50px;
+    width: 300px;   /* aumenta a largura */
+    height: auto;   /* mantém a proporção */
+}
+
+.profilePhoto {
+    margin: 0 130px 0 0;
     align-self: center;
     justify-self: center;
 }
@@ -203,4 +207,17 @@ ul {
 .form input[type="reset"]:hover {
   border-color: var(--hover-color);
   color: var(--hover-color);
+}
+
+.baseboard {
+    background-color: var(--backgroudSec);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    min-width: 300px;
+    border-radius: 20px;
+    color: var(--textForHeader);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
 }
