@@ -16,16 +16,16 @@
       <div class="menu">
         <nav>
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Resumo</a></li>
-            <li><a href="#">Skill</a></li>
-            <li><a href="#">Projetos</a></li>
+            <li><a href="#summaryContent">Início</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#project">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main class="content">
-      <section class="summary">
+      <section class="summary" id="summaryContent">
         <div class="experience">
           <img
             src="img/Foto_Perfil-removebg-preview.png"
@@ -44,7 +44,7 @@
           </p>
         </div>
       </section>
-      <section class="skills">
+      <section class="skills" id="skill">
         <h3 class="subtitulotexto">Skills</h3>
         <div>
           <img src="img/html-5.png" alt="HTML" class="imgSkills">
@@ -56,17 +56,38 @@
           <img src="img/postgre.png" alt="Postgre" class="imgSkills">
         </div>
       </section>
-      <section class="projects">
+      <section class="projects" id="project">
         <h3 class="subtitulotexto">Projetos</h3>
         <div>
           <p></p>
         </div>
       </section>
-      <section class="fomumlario">
+      <section class="form" id="contact">
         <form action="#" method="post">
-            <div class="contato">
-                <label for="name">Nome:</label>
-                <input type="text" name="name" id="name">
+            <h3 class="subtitulotexto">Contato</h3>
+            <div class="name">
+              <label for="name">Nome:</label>
+              <input type="text" name="name" id="name">
+            </div>
+            <div class="telephone">
+              <label for="telephone">Telefone:</label>
+              <input type="tel" name="telephone" id="telephone">
+            </div>
+            <div class="email">
+              <label for="email">E-mail:</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="subject">
+              <label for="subject">Assunto:</label>
+              <input type="text" name="subject" id="subject">
+            </div>
+            <div class="message">
+              <label for="message">Mensagem:</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="action">
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Limpar">
             </div>
         </form>
       </section>
