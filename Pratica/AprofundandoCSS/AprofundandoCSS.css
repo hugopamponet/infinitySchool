@@ -53,7 +53,6 @@ section {
   }
 }
 
-/* Telas pequenas (até 600px) */
 @media (max-width: 600px) {
   :root {
     --font-h1: 1.6rem;
