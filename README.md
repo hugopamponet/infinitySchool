@@ -22,12 +22,5 @@ graph TD
     
     G[Javascript]
     G --> G[Introdução ao JavaScript e ChatGPT]
-    G --> H[Estruturas de Controle (Condicionais)]
-    
-    G --> I[☁️ Infobip People API]
-    H --> I
-    
-    J[📱 User Input] --> K[✅ Validation]
-    K --> L[💾 Local Storage]
-    K --> M[☁️ Cloud Storage]
+    G --> H[Estruturas de Controle - Condicionais]
 ```
