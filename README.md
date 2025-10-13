@@ -20,7 +20,7 @@ graph TD
     E --> H[Avançando com CSS]
     E --> I[Aprofundando em CSS Avançado]
     
-    G[Javascript]
-    G --> G[Introdução ao JavaScript e ChatGPT]
-    G --> H[Estruturas de Controle - Condicionais]
+    J[Javascript]
+    J --> K[Introdução ao JavaScript e ChatGPT]
+    J --> L[Estruturas de Controle - Condicionais]
 ```
